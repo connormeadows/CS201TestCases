@@ -38,11 +38,10 @@ int main(){
 
 //Testing rank for all of the elements. Draw the tree out to see if these are correct.
     cout << "Testing the rank method for a few of the keys..." << endl;
-    cout << "The rank of 1 is " << A.rank(1) << endl;
-    cout << "The rank of 2 is " << A.rank(2) << endl;
-    cout << "The rank of 4 is " << A.rank(4) << endl;
-    cout << "The rank of 5 is " << A.rank(5) << endl;
-    cout << "The rank of 10 is " << A.rank(10) << endl << endl;
+    for(int i = 1; i < 11; i++){
+        cout << "The rank of " << i << " is " << A.rank(i) << endl;
+    }
+    cout << endl;
 
 //Testing the select method.
     cout << "What about your search method? Testing with input as 1, 5, then 10" << endl;
