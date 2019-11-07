@@ -87,7 +87,7 @@ int main(){
     cout << endl;
 
 //The second half of the test, doing everything over again from the user-defined constructor. 
-cout << "###################################################" << endl;
+cout << "###################################################################" << endl;
 //The twist is that the keys are chars and the vals are doubles, although it really doesn't make a difference
     cout << "Now for the moment we\'ve ALL been waiting for\n...\n...\n...\nThe USER-DEFINED constructor" << endl << endl;
     char keys[] =   {'a', 'b', 'c', 'd',  'e'}; 
@@ -108,6 +108,7 @@ cout << "###################################################" << endl;
 
     cout << "The rank of a is " << D.rank('a') << endl;
     cout << "The rank of b is " << D.rank('b') << endl;
+    cout << "The rank of c is " << D.rank('c') << endl;
     cout << "The rank of d is " << D.rank('d') << endl;
     cout << "The rank of e is " << D.rank('e') << endl << endl;
 
@@ -127,6 +128,6 @@ cout << "###################################################" << endl;
         D.inorder();
     cout << "Postorder: ";
         D.postorder();
-
-    return 0;
+    cout << endl;
+    return 1;
 }
