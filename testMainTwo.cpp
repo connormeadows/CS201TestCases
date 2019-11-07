@@ -10,7 +10,7 @@ int main(){
     RBTree<char, double> A(keys, vals, 7);
     cout << "The original tree" << endl;
     A.inorder();
-
+ 
     RBTree<char, double> B = A;
     RBTree<char, double> C;
     C = A;
